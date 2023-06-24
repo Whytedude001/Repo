@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--INTERNAL CSS
+    Border-collapse: collapse will remove the border at the edges of all the cells and table.-->
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100;
+        }
+        td, th {
+            border: 1px solid white;
+            text-align:  center;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+        tr:hover {
+            background-color: brown;
+        }
+
+        td:nth-child(even), th:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+    </style>
+</head>
+<body>
+    
+    <!--inline CSS-->
+    <h2 style="text-align:center">CHAMPION LEAGUE PAST WINNERS.</h2>
+
+    <table style="width:100%">
+        <caption style="color: red">Champions League Winners</caption>
+        <colgroup>
+            <col span="3" style="background-color: grey">
+        </colgroup>
+        <tr>
+            <th>Team Name</th>
+            <th>Country</th>
+            <th>League</th>
+            <th>Year</th>
+            <th>Score</th>
+            <th>Runner-Up</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>Manchester City</td>
+            <td>England</td>
+            <td>Premier League</td>
+            <td>2023</td>
+            <td>1-0</td>
+            <td>Inter Milan</td>
+            <td>Istanbul</td>
+        </tr>
+        <tr>
+            <td>Real Madrid</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2022</td>
+            <td>1-0</td>
+            <td>Liverpool</td>
+            <td>Paris</td>
+        </tr>
+        <tr>
+            <td>Chelsea</td>
+            <td>England</td>
+            <td>Premier League</td>
+            <td>2021</td>
+            <td>1-0</td>
+            <td>PSG</td>
+            <td>Porto</td>
+        </tr>
+        <tr>
+            <td>Bayern Munich</td>
+            <td>Germany</td>
+            <td>Bundesliga</td>
+            <td>2020</td>
+            <td>1-0</td>
+            <td>PSG</td>
+            <td>Lisbon</td>
+        </tr>
+        <tr>
+            <td>Liverpool</td>
+            <td>England</td>
+            <td>Premier League</td>
+            <td>2019</td>
+            <td>2-0</td>
+            <td>Tottenham</td>
+            <td>Madrid</td>
+        </tr>
+        <tr>
+            <td>Real Madrid</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2018</td>
+            <td>3-1</td>
+            <td>Liverpool</td>
+            <td>Kyiv</td>
+        </tr>
+        <tr>
+            <td>Real Madrid</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2017</td>
+            <td>4-1</td>
+            <td>Juventus</td>
+            <td>Cardiff</td>
+        </tr>
+        <tr>
+            <td>Real Madrid</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2016</td>
+            <td>5-3</td>
+            <td>Atletico Madrid</td>
+            <td>Milan</td>
+        </tr>
+        <tr>
+            <td>Barcelona</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2015</td>
+            <td>3-1</td>
+            <td>Juventus</td>
+            <td>Berlin</td>
+        </tr>
+        <tr>
+            <td>Real Madrid</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2014</td>
+            <td>4-1</td>
+            <td>Atletico Madrid</td>
+            <td>Lisbon</td>
+        </tr>
+        <tr>
+            <td>Bayern Munich</td>
+            <td>Germany</td>
+            <td>Bundesliga</td>
+            <td>2013</td>
+            <td>2-1</td>
+            <td>Dotmund</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>Chelsea</td>
+            <td>England</td>
+            <td>Premier League</td>
+            <td>2012</td>
+            <td>4-1</td>
+            <td>Bayern Munich</td>
+            <td>Munich</td>
+        </tr>
+        <tr>
+            <td>Barcelona</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2011</td>
+            <td>3-1</td>
+            <td>Manchester United</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>Inter Milan</td>
+            <td>Italy</td>
+            <td>Serial A</td>
+            <td>2010</td>
+            <td>2-0</td>
+            <td>Bayern Munich</td>
+            <td>Madrid</td>
+        </tr>
+        <tr>
+            <td>Barcelona</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2009</td>
+            <td>2-0</td>
+            <td>Manchester United</td>
+            <td>Roma</td>
+        </tr>
+        <tr>
+            <td>Manchester United</td>
+            <td>England</td>
+            <td>Premier League</td>
+            <td>2008</td>
+            <td>6-5</td>
+            <td>Chelsea</td>
+            <td>Moscow</td>
+        </tr>
+        <tr>
+            <td>AC Milan</td>
+            <td>Italy</td>
+            <td>Serial A</td>
+            <td>2007</td>
+            <td>2-1</td>
+            <td>Liverpool</td>
+            <td>Athens</td>
+        </tr>
+        <tr>
+            <td>Barcelona</td>
+            <td>Spain</td>
+            <td>Laliga</td>
+            <td>2006</td>
+            <td>2-1</td>
+            <td>Arsenal</td>
+            <td>Paris</td>
+        </tr>
+        <tr>
+            <td>Liverpool</td>
+            <td>England</td>
+            <td>Premier League</td>
+            <td>2005</td>
+            <td>3-2</td>
+            <td>AC Milan</td>
+            <td>Istanbul</td>
+        </tr>
+        <tr>
+            <td>Porto</td>
+            <td>Portugal</td>
+            <td>Primera Liga</td>
+            <td>2004</td>
+            <td>3-0</td>
+            <td>Monaco</td>
+            <td>Gelsenkirchen</td>
+        </tr>
+    </table>
+
+    <p><b>This is the Champions League Winers and Runner-ups in the last 20 years from 2004 to 2023.</b></p>
+</body>
+</html>

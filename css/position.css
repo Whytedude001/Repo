@@ -1,0 +1,9 @@
+
+.container{
+    position: static;
+    width: 300px;
+}
+
+.item1{
+    position: absolute;
+}
